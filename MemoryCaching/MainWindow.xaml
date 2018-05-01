@@ -1,0 +1,27 @@
+﻿<!--
+    FILENAME        : MainWindow.xaml
+    PROJECT         : MemoryCaching
+    PROGRAMMER      : Jody Markic
+    FIRST VERSION   : 2/21/2018
+    DESCRIPTION     : This XAML for the MemoryCache project.
+-->
+<Window x:Class="MemoryCaching.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:MemoryCaching"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Cache Data" HorizontalAlignment="Left" Margin="362,55,0,0" VerticalAlignment="Top" Width="100" Click="CacheData_Button_Click"/>
+        <Button Content="Retrieve Data" HorizontalAlignment="Left" Margin="176,70,0,0" VerticalAlignment="Top" Width="100" Click="RetrieveData_Button_Click"/>
+        <Button Content="Clear Cache" HorizontalAlignment="Left" Margin="363,84,0,0" VerticalAlignment="Top" Width="100" Click="ClearCache_Button_Click"/>
+        <ComboBox  x:Name="UserNameComboBox" HorizontalAlignment="Left" Margin="39,68,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Select a UserName:" HorizontalAlignment="Left" Margin="40,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="CachedTextbox" HorizontalAlignment="Left" Height="98" Margin="31,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203"/>
+        <TextBox x:Name="UncachedTextbox" HorizontalAlignment="Left" Height="98" Margin="273,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203"/>
+        <Label Content="Cached Retrieval Stats" HorizontalAlignment="Left" Margin="69,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Uncached Retrieval Stats" HorizontalAlignment="Left" Margin="301,144,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

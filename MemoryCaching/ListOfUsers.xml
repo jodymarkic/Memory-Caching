@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ListOfUsers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Users>
+    <UserCode>101</UserCode>
+    <UserName>Jody Markic</UserName>
+  </Users>
+  <Users>
+    <UserCode>102</UserCode>
+    <UserName>Zivojin Pecin</UserName>
+  </Users>
+  <Users>
+    <UserCode>103</UserCode>
+    <UserName>Arindm Sharma</UserName>
+  </Users>
+  <Users>
+    <UserCode>104</UserCode>
+    <UserName>Norbert Mika</UserName>
+  </Users>
+  <Users>
+    <UserCode>105</UserCode>
+    <UserName>Russel Foubert</UserName>
+  </Users>
+</ListOfUsers>
